@@ -20,10 +20,10 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Narsimha Reddy S",
+  title: "Hi all, I'm Narsimha Reddy S",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "A seasoned developer with over 4 years of experience, I excel in building user-friendly and scalable web and mobile applications using Flutter and MERN.  I've thrived in both startup and established company environments, spearheading projects like a user-friendly crypto marketplace and healthcare access apps. My ability to deliver successful MVPs and drive user engagement makes me a valuable asset for any team."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
@@ -33,13 +33,13 @@ const greeting = {
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/narsimha-na",
+  linkedin: "https://www.linkedin.com/in/narsimha-reddy-s-3976b113a/",
+  gmail: "snarsimhareddy98@gmail.com",
+  // gitlab: "https://gitlab.com/saadpasta",
+  // facebook: "https://www.facebook.com/saad.pasta7",
+  // medium: "https://medium.com/@saadpasta",
+  // stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -51,72 +51,127 @@ const skillsSection = {
   title: "What I do",
   subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
-    emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
-    ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-    )
+    "⚡I designed and built numerous prototypes and applications for crypto and NFTs. Notably, I spearheaded the creation of a user-friendly marketplace where FITT tokens serve as the currency for buying and selling NFTs.",
+    "⚡ I have deeloped many mobile & and web applications for POC'S & MVP and pushed more than 5 mobile applications on to both Google play store and Apple store. ",
+    "⚡ Delivered 2 Minimum Viable Products (MVPs) within a tight timeframe (45-60 days) and successfully transitioned them to production-ready applications",
+    "⚡ Worked on different Web App POCs like live streaming and Video Calls using WebRTC and some other services according to requirements that are rolled out during the pandemic.",
+    "⚡ Worked on Complex UI, Custom Animations, Maps, live user tracking, and app notifications in our Flutter App.",
+    "⚡ I spearheaded the enhancement of our company’s Flutter App, introducing innovative features and resolving glitches to ensure seamless access for employees seeking timely medical attention and connectivity with healthcare professionals during the challenging times of COVID-19 outbreaks",
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
-
-  softwareSkills: [
-    {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
-    },
-    {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
+  langSkills: [
     {
       skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
+      fontAwesomeClassname: "logos:javascript",
     },
     {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
+      skillName: "TypeScript",
+      fontAwesomeClassname: "logos:typescript-icon",
     },
     {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
+      skillName: "Dart",
+      fontAwesomeClassname: "logos:dart",
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
+      skillName: "Python",
+      fontAwesomeClassname: "logos:python",
     },
     {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
+      skillName: "HTML",
+      fontAwesomeClassname: "logos:html-5",
+    },
+
+    {
+      skillName: "CSS",
+      fontAwesomeClassname: "logos:css-3",
     },
     {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
+      skillName: "MySQL-database",
+      fontAwesomeClassname: "vscode-icons:file-type-sql",
+    },
+  ],
+  frameworksSkills: [
+    {
+      skillName: "Flutter",
+      fontAwesomeClassname: "logos:flutter",
+    },
+    {
+      skillName: "ReactJs",
+      fontAwesomeClassname: "vscode-icons:file-type-reactjs",
+    },
+    {
+      skillName: "NodeJs",
+      fontAwesomeClassname: "logos:nodejs-icon",
+    },
+
+    {
+      skillName: "Tailwind CSS",
+      fontAwesomeClassname: "devicon:tailwindcss",
+    },
+    {
+      skillName: "Jest",
+      fontAwesomeClassname: "logos:jest",
+    },
+    {
+      skillName: "GraphQL",
+      fontAwesomeClassname: "devicon-plain:graphql",
+    },
+    {
+      skillName: "NextJS",
+      fontAwesomeClassname: "devicon:nextjs",
+    },
+    {
+      skillName: "three.js",
+      fontAwesomeClassname: "skill-icons:threejs-light",
+    },
+  ],
+  develperTools: [
+    {
+      skillName: "Android Studio",
+      fontAwesomeClassname: "devicon:androidstudio",
+    },
+    {
+      skillName: "VS code",
+      fontAwesomeClassname: "devicon:vscode",
+    },
+    {
+      skillName: "Xcode",
+      fontAwesomeClassname: "devicon:xcode",
+    },
+    {
+      skillName: "Git",
+      fontAwesomeClassname: "devicon:git",
+    },
+    {
+      skillName: "Github",
+      fontAwesomeClassname: "bi:github",
+    },
+  ],
+  hostingTools: [
+    {
+      skillName: "mongoDB",
+      fontAwesomeClassname: "vscode-icons:file-type-mongo",
     },
     {
       skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
+      fontAwesomeClassname: "logos:aws",
     },
     {
       skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
+      fontAwesomeClassname: "logos:firebase",
     },
     {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
+      skillName: "Google Play Console",
+      fontAwesomeClassname: "logos:google-play-console-icon",
     },
     {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
-    }
+      skillName: "Apple store",
+      fontAwesomeClassname: "logos:apple-app-store",
+    },
   ],
+
   display: true // Set false to hide this section, defaults to true
 };
 
@@ -126,23 +181,21 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "Institute of Aeronautical Engineering",
+      logo: require("./assets/images/skill.svg"),
+      subHeader: " Bachelors in Computer Science",
+      duration: "Sep 2016 - June 2020",
+      desc: "",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
       ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
+      schoolName: "Kendriya Vidyalaya",
+      logo: require("./assets/images/skill.svg"),
+      subHeader: "High School",
       duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      desc: "Sep 2016 - Oct 2020",
+      descBullets: []
     }
   ]
 };
@@ -174,31 +227,28 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+      role: " Full Stack Developer",
+      company: "MaveX",
+      companylogo: require("./assets/images/mavex.png"),
+      date: "Sep 2019 – April 2021",
+      desc: "Developed both Native Android App & Web App (React JS) for both client and admin facing side for DIY events platform keeping stability & future scalability in mind.We crafted two mobile MVP applications from inception, meticulously refining them before unveiling them to our community for rigorous product validation and bug detection. This pre-public rollout ensured a seamless transition to the final production build.",
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "UI Developer",
+      company: "Tata MD",
+      companylogo: require("./assets/images/tatamd.jfif"),
+      date: "May 2021 – Present",
+      desc: "I spearheaded the enhancement of our company’s Flutter App, introducing innovative features and resolving glitches to ensure seamless access for employees seeking timely medical attention and connectivity with healthcare professionals during the challenging times of COVID-19 outbreaks.Worked on different Web App POCs like live streaming and Video Calls using WebRTC and some other services according to requirements that are rolled out during the pandemic.Rapidly built essential Flutter apps to empower frontline workers in effectively managing medical emergencies within organizations.",
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    }
-  ]
+      role: "SDE",
+      company: "Ftimint",
+      companylogo: require("./assets/images/fitmint_app_logo.png"),
+      date: "May 2021 – Present",
+      desc: "As part of a founding team at a Web3 company, I designed and built numerous prototypes and applications for crypto and NFTs. Notably, I spearheaded the creation of a user-friendly marketplace where FITT tokens serve as the currency for buying and selling NFTs.Developed a Dashboard for 3D avatars and Support side applications using NextJS for managing the users for our support team.Delivered 2 Minimum Viable Products (MVPs) within a tight timeframe (45-60 days) and successfully transitioned    them to production-ready applications.",
+    },
+  ],
+
 };
 
 /* Your Open Source Section to View Your Github Pinned Projects
@@ -216,25 +266,59 @@ const bigProjects = {
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/nextuLogo.webp"),
+      projectName: "FITMINT",
+      projectDesc: "Get Paid to Walk & Run: Turn your steps into real rewards! It lets you get money by simply walking and running, making every step count towards a healthier lifestyle and a wealthier you.Crypto Rewards: Experience the power of cryptocurrency with Fitmint. Redeem your owned FITT tokens in popular cryptocurrencies",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          name: "Visit App",
+          url: "https://play.google.com/store/apps/details?id=com.fitmint.app",
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/saayaHealthLogo.webp"),
+      projectName: "Rush",
+      projectDesc: "Introducing Rush, the revolutionary trivia game that matches you with opponents, tests your knowledge on various topics, and rewards you with crypto for winning.",
+      footerLink: [
+        {
+          name: "Visit App",
+          url: "https://play.google.com/store/apps/details?id=com.fitmint.rush"
         }
         //  you can add extra buttons here.
       ]
     },
+
     {
       image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      projectName: "Tata MD",
+      projectDesc: "Tata MD is a friendly healthcare app designed to provide holistic healthcare needs for Elderly, Women. Men, Child and manage your Chronic Care. Services offered: Manage care services in continuous, connected, proactive, close-to-patient and delivering patient-centric care Online & In-clinic Doctor Consultations-",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://nextu.se/"
+          name: "Visit App",
+          url: "https://play.google.com/store/apps/details?id=com.tatamd.urbancare",
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/nextuLogo.webp"),
+      projectName: "Tata MD",
+      projectDesc: "Tata MD is a friendly healthcare app designed to provide holistic healthcare needs for Elderly, Women. Men, Child and manage your Chronic Care. Services offered: Manage care services in continuous, connected, proactive, close-to-patient and delivering patient-centric care Online & In-clinic Doctor Consultations-",
+      footerLink: [
+        {
+          name: "Visit App",
+          url: "https://play.google.com/store/apps/details?id=com.tatamd.urbancare",
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/nextuLogo.webp"),
+      projectName: "MAVEX",
+      projectDesc: "MaveX app lets you book tickets to all those huge and tiny events happening around you within seconds. It brings events related to music, sports, arts, technology, and a lot more to you from around the country. \n I have developed android applicaiton,Web applicaitons & API services for this start-up",
+      footerLink: [
+        {
+          name: "Visit Web",
+          url: "https://mavex.club/",
         }
       ]
     }
@@ -292,7 +376,7 @@ const achievementSection = {
       image: require("./assets/images/pwaLogo.webp"),
       imageAlt: "PWA Logo",
       footerLink: [
-        {name: "Certification", url: ""},
+        { name: "Certification", url: "" },
         {
           name: "Final Project",
           url: "https://pakistan-olx-1.firebaseapp.com/"
@@ -372,8 +456,8 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  number: "+91 7989412625",
+  email_address: "snarsimhareddy98@gmail.com"
 };
 
 // Twitter Section
