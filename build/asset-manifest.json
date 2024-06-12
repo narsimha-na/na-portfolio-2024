@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.621da840.css",
-    "main.js": "/static/js/main.ff9aeefe.js",
+    "main.css": "/static/css/main.89146a8d.css",
+    "main.js": "/static/js/main.d6650649.js",
     "static/css/487.bb36206c.chunk.css": "/static/css/487.bb36206c.chunk.css",
     "static/js/487.7ae187c0.chunk.js": "/static/js/487.7ae187c0.chunk.js",
     "static/css/990.c6a7ee28.chunk.css": "/static/css/990.c6a7ee28.chunk.css",
@@ -20,16 +20,15 @@
     "static/media/tatamd.jfif": "/static/media/tatamd.7e66d24146c203119963.jfif",
     "static/media/nextuLogo.webp": "/static/media/nextuLogo.e033dbfa4c58c0a906aa.webp",
     "index.html": "/index.html",
-    "static/media/talksCardBack.svg": "/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
-    "main.621da840.css.map": "/static/css/main.621da840.css.map",
-    "main.ff9aeefe.js.map": "/static/js/main.ff9aeefe.js.map",
+    "main.89146a8d.css.map": "/static/css/main.89146a8d.css.map",
+    "main.d6650649.js.map": "/static/js/main.d6650649.js.map",
     "487.bb36206c.chunk.css.map": "/static/css/487.bb36206c.chunk.css.map",
     "487.7ae187c0.chunk.js.map": "/static/js/487.7ae187c0.chunk.js.map",
     "990.c6a7ee28.chunk.css.map": "/static/css/990.c6a7ee28.chunk.css.map",
     "990.567a0b93.chunk.js.map": "/static/js/990.567a0b93.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.621da840.css",
-    "static/js/main.ff9aeefe.js"
+    "static/css/main.89146a8d.css",
+    "static/js/main.d6650649.js"
   ]
 }

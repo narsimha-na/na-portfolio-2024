@@ -1,10 +1,10 @@
-import React, { createRef, useContext } from "react";
+import React, { useContext } from "react";
 import { Fade, Slide } from "react-reveal";
 import "./EducationCard.scss";
 import StyleContext from "../../contexts/StyleContext";
 
 export default function EducationCard({ school }) {
-  const imgRef = createRef();
+
 
   const GetDescBullets = ({ descBullets }) => {
     return descBullets
