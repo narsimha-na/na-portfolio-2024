@@ -267,7 +267,7 @@ const bigProjects = {
   projects: [
     {
       image: require("./assets/images/nextuLogo.webp"),
-      projectName: "FITMINT",
+      projectName: "Fitmint",
       projectDesc: "Get Paid to Walk & Run: Turn your steps into real rewards! It lets you get money by simply walking and running, making every step count towards a healthier lifestyle and a wealthier you.Crypto Rewards: Experience the power of cryptocurrency with Fitmint. Redeem your owned FITT tokens in popular cryptocurrencies",
       footerLink: [
         {
@@ -291,12 +291,12 @@ const bigProjects = {
 
     {
       image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Tata MD",
-      projectDesc: "Tata MD is a friendly healthcare app designed to provide holistic healthcare needs for Elderly, Women. Men, Child and manage your Chronic Care. Services offered: Manage care services in continuous, connected, proactive, close-to-patient and delivering patient-centric care Online & In-clinic Doctor Consultations-",
+      projectName: "Dumble",
+      projectDesc: "It’s easy to start the gym but it’s very very difficult to be consistent. Most often people will buy 3/6/12 month of gym membership and will quit going within few weeks. Dumble is an app designed to help you become consistent with your gym or home workouts.",
       footerLink: [
         {
           name: "Visit App",
-          url: "https://play.google.com/store/apps/details?id=com.tatamd.urbancare",
+          url: "https://play.google.com/store/apps/details?id=com.fitmint.dumble",
         }
       ]
     },
@@ -313,7 +313,7 @@ const bigProjects = {
     },
     {
       image: require("./assets/images/nextuLogo.webp"),
-      projectName: "MAVEX",
+      projectName: "Mavex",
       projectDesc: "MaveX app lets you book tickets to all those huge and tiny events happening around you within seconds. It brings events related to music, sports, arts, technology, and a lot more to you from around the country. \n I have developed android applicaiton,Web applicaitons & API services for this start-up",
       footerLink: [
         {
